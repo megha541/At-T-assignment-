@@ -1,0 +1,54 @@
+.main-order {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    .details {
+    width: 40%;
+    text-align: initial;
+    .info-text {
+        color: grey;
+    }
+    .actions {
+        display: flex;
+        flex-direction: column;
+        .button {
+            cursor: pointer;
+            margin: 15px;
+            border: none;
+            color: #fff;
+            background-color: #356afa;
+            padding: 5px;
+        }
+        .button:hover {
+            filter: brightness(1.2);
+            font-weight: bold;
+        }
+        .cancel {
+            background-color: #fff;
+            color: #000;
+            border: 1px #000 solid;
+        }
+    }
+    }
+    .each-item {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-order {
+        flex-direction: column;
+        .details {
+       width: 70%;
+        }
+        .each-item {
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 425px) {
+    .main-order {
+        .details {
+            width: 100%;
+        }
+    }
+}

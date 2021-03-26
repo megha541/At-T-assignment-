@@ -1,0 +1,15 @@
+.progress-bar {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .progress-bar {
+        width: 50vw;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .progress-bar {
+        width: 90vw;
+    }
+}

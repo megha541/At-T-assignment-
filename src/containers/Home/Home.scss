@@ -1,0 +1,8 @@
+.home-item {
+    display: flex;
+}
+@media only screen and (max-width: 425px) {
+    .home-item {
+        display: initial;
+    }
+}

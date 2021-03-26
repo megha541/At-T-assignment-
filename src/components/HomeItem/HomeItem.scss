@@ -1,0 +1,15 @@
+.home-card{
+    border: 1px #c4c4c4 solid;
+    background-color: rgb(243,243,243);
+    flex-direction: column;
+    padding: 5px;
+    width: 250px;
+    margin: 20px;
+    .card-box{
+        width: 200px;
+        font-weight: 500;
+        img {
+            width: 80%;
+        }
+    }
+}
